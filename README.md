@@ -42,9 +42,6 @@ it is a file or directory.
 
 • Print out the last modified date of the file
 
-• Your output should match mine exactly (see the example output for
-the exact format)
-
 <strong>if it is a directory:</strong>
 
 • Print a heading indicating that you are printing size followed by
@@ -59,7 +56,6 @@ filename
 
 If the 2nd parameter is not a regular file or directory, print the error message:
 ”Error: Invalid File”
-
 
 <strong><i>3. View: </i></strong>
 If the user requests to view a file, the 2nd parameter should be a
