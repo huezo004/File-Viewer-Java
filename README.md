@@ -32,7 +32,7 @@ they may pass a 2nd parameter indicating the file or directory they wish
 information on. This is handled in different ways, depending on whether
 it is a file or directory.
 
-If it is a file:
+<strong>If it is a file:</strong>
 
 • Print the absolute path to the file
 
@@ -45,7 +45,7 @@ If it is a file:
 • Your output should match mine exactly (see the example output for
 the exact format)
 
-if it is a directory:
+<strong>if it is a directory:</strong>
 
 • Print a heading indicating that you are printing size followed by
 filename
