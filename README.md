@@ -73,3 +73,6 @@ exceptions encountered appropriately. After this, print a message to the
 user stating that the copy was successful. Please note that you should be
 able to copy binary files with this method, not just text files.
 
+
+<img width="861" alt="screen shot 2017-08-13 at 11 22 46 am" src="https://user-images.githubusercontent.com/16257714/29250942-cf80a42e-8019-11e7-8390-0fe413d91955.png">
+
