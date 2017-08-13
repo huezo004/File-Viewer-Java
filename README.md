@@ -27,33 +27,49 @@ Usage : java -jar hw4.jar
 [-i [<file>|<directory>]|-v <file>|-c <sourceFile> <destFile>]
 
 
-Information: When the user requests information using the ”-i” option,
+<i><strong>2. Information: </strong></i>
+
+When the user requests information using the ”-i” option,
 they may pass a 2nd parameter indicating the file or directory they wish
 information on. This is handled in different ways, depending on whether
-it is a file or directory. If it is a file:
+it is a file or directory.
+
+If it is a file:
 
 • Print the absolute path to the file
+
 • Indicate whether the file can be executed
+
 • Print out the file size in bytes
+
 • Print out the last modified date of the file
+
 • Your output should match mine exactly (see the example output for
 the exact format)
-However, if it is a directory:
+
+if it is a directory:
+
 • Print a heading indicating that you are printing size followed by
 filename
+
 • Give each file on which you are printing the size, followed by the
 filename
+
 • Sort the files by filesize (lowest to highest)
+
 • See example output for details
+
 If the 2nd parameter is not a regular file or directory, print the error message:
 ”Error: Invalid File”
 
-3. View: If the user requests to view a file, the 2nd parameter should be a
+
+<strong><i>3. View: </i></strong>
+If the user requests to view a file, the 2nd parameter should be a
 regular file. If the file is not found, print an appropriate error message.
 You should then print the contents of the file, as text, to the screen.
 Remember to handle all exceptions you encounter.
 
-4. Copy: If the user requests to copy a file, the 2nd parameter should be
+<strong><i>4. Copy:</i></strong> If the user requests to copy a file, the 2nd parameter should be
 the name of a regular file (the source file) and the 3rd parameter should
 be the name of the file to copy to (the destination file). If the destination
 file already exists, print an appropriate error message. If the source file
