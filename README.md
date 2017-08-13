@@ -22,10 +22,8 @@ passed ”-i .”)
 
 If the command is invalid usage (illegal options), print a usage message,
 as below, then exit the program:
+
 Usage : java -jar hw4.jar
-
-[-i [<file>|<directory>]|-v <file>|-c <sourceFile> <destFile>]
-
 
 <i><strong>2. Information: </strong></i>
 
